@@ -1,4 +1,4 @@
-echo "Welcome, Sheng Qiang! --bash profile"
+echo "Welcome, Captain Sophon Tec! --bash profile"
 
 PATH=/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=$PATH:/usr/local/bin
