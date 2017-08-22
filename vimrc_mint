@@ -1,0 +1,33 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'derekwyatt/vim-scala'
+call vundle#end()
+
+filetype plugin indent on
+
+set ai
+set history=100
+set ruler
+set hlsearch
+colo darkblue
+
+syntax on
+
+filetype indent on
+set number
+set ic
+set lbr
+filetype plugin indent on
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+set backspace=2
+set whichwrap+=<,>,h,l,[,]
+
+set rtp+=/home/sophon/.local/lib/python3.5/site-packages/powerline/bindings/vim/
+set laststatus=2
+set t_Co=256
+
